@@ -7,6 +7,12 @@
   "type": "module",
   "main": "./uchu.css",
   "types": "./uchu.d.ts",
+  "exports": {
+    ".": {
+      "main": "./uchu.css",
+      "types": "./uchu.d.ts"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nakasyou/uchu-tailwind.git"
